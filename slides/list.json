@@ -1,0 +1,128 @@
+[
+    "index.md",
+    "agenda.md",
+    [
+        "bakgrund.md",
+        "jquery.md",
+        "mojligheterna.md"
+    ],
+    [
+        "workflow.md",
+        "console-ftw.md",
+        "console-commands.md",
+        "userscript-manager.md",
+        "lokal-webbserver.md"
+    ],
+    {
+        "filename": "ovning-0.md",
+        "attr": {
+            "data-background": "#556270"
+        }
+    },
+    [
+        "selectors.md",
+        "id.md",
+        "class.md",
+        "element.md",
+        "kombo.md",
+        "child-filter-selectors.md",
+        "content-filters.md",
+        "child-element.md"
+    ],
+    {
+        "filename": "ovning-2.md",
+        "attr": {
+            "data-background": "#556270"
+        }
+    },
+    [
+        "methods.md",
+        "parent.md",
+        "lagga-till.md",
+        "andra.md",
+        "flytta.md",
+        "kopiera.md",
+        "visadoljata-bort.md"
+    ],
+    {
+        "filename": "ovning-1.md",
+        "attr": {
+            "data-background": "#556270"
+        }
+    },
+    [
+        "css-responsive.md"
+    ],
+    [
+        "implementation.md",
+        "ab-testing-tools.md",
+        "exekvering-av-kod.md",
+        "flicker.md",
+        {
+            "filename": "optimizely.md",
+            "attr": {
+                "data-background": "#00415d"
+            }
+        },
+        {
+            "filename": "execution.md",
+            "attr": {
+                "data-background": "#fff"
+            }
+        },
+        {
+            "filename": "loading.md",
+            "attr": {
+                "data-background": "white"
+            }
+        },
+        "dom-ready.md",
+        "goals.md",
+        "segments.md",
+        "global-variables.md",
+        {
+            "filename": "vwo.md",
+            "attr": {
+                "data-background": "#BE2876"
+            }
+        }
+    ],
+    {
+        "filename": "buggtesta.md",
+        "attr": {
+            "data-background": "http://f.cl.ly/items/361d0o1K3k0a3N1K1k3g/rage.jpg"
+        }
+    },
+    [
+        "funktioner.md",
+        {
+            "filename": "ovning-3.md",
+            "attr": {
+                "data-background": "#556270"
+            }
+        },
+        {
+            "filename": "ovning-4.md",
+            "attr": {
+                "data-background": "#556270"
+            }
+        },
+        "ajax.md",
+        {
+            "filename": "ovning-5.md",
+            "attr": {
+                "data-background": "#556270"
+            }
+        }
+    ],
+    "multi-armed-bandit.md",
+    [
+        "workflow-advanced.md"
+    ],
+    "spss-demo.md",
+    [
+        "appendix.md",
+        "appendix-2.md"
+    ]
+    
+]

@@ -1,0 +1,8 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "Script-utveckling för A/B-testning",
+    "packageVersion": "0.0.0",
+    "useSass": true,
+    "deployToGithubPages": false
+  }
+}
