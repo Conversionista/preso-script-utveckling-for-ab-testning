@@ -1,4 +1,4 @@
-##  ab-testing tools
+##  ab-testingsverktyg
 
 - Optimizely
 - VWO
@@ -7,3 +7,4 @@
 - Google Content Experiments
 - SiteVision
 - EPiServer
+- +100000 andra...

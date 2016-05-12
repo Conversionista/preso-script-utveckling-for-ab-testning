@@ -2,7 +2,6 @@
 
 - Kommer mest prata om Optimizely
 - Mål
-- Segment
+- Segment – "Audiences"
 - Kodeditor
-	- Skillnad mot VWO
 - IP filtrering

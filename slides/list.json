@@ -4,33 +4,24 @@
     [
         "bakgrund.md",
         "jquery.md",
-        "mojligheterna.md"
+    {
+        "filename": "testplan.md",
+        "attr": {
+            "data-background": "#FFFFFF"
+        }
+    }
+
     ],
     [
         "workflow.md",
         "console-ftw.md",
         "console-commands.md",
         "userscript-manager.md",
-        "lokal-webbserver.md"
+        "lokal-webbserver.md",
+        "workflow-advanced.md"
     ],
     {
-        "filename": "ovning-0.md",
-        "attr": {
-            "data-background": "#556270"
-        }
-    },
-    [
-        "selectors.md",
-        "id.md",
-        "class.md",
-        "element.md",
-        "kombo.md",
-        "child-filter-selectors.md",
-        "content-filters.md",
-        "child-element.md"
-    ],
-    {
-        "filename": "ovning-2.md",
+        "filename": "ovning-1.md",
         "attr": {
             "data-background": "#556270"
         }
@@ -45,7 +36,7 @@
         "visadoljata-bort.md"
     ],
     {
-        "filename": "ovning-1.md",
+        "filename": "ovning-2.md",
         "attr": {
             "data-background": "#556270"
         }
@@ -65,6 +56,15 @@
             }
         },
         {
+            "filename": "optimizely-documentation.md",
+            "attr": {
+                "data-background": "#00415d"
+            }
+        },
+        "goals.md",
+        "segments.md",
+        "global-variables.md",
+        {
             "filename": "execution.md",
             "attr": {
                 "data-background": "#fff"
@@ -76,10 +76,12 @@
                 "data-background": "white"
             }
         },
-        "dom-ready.md",
-        "goals.md",
-        "segments.md",
-        "global-variables.md",
+        {
+            "filename": "optimizely-force.md",
+            "attr": {
+                "data-background": "#00415d"
+            }
+        },
         {
             "filename": "vwo.md",
             "attr": {
@@ -87,12 +89,16 @@
             }
         }
     ],
-    {
-        "filename": "buggtesta.md",
-        "attr": {
-            "data-background": "http://f.cl.ly/items/361d0o1K3k0a3N1K1k3g/rage.jpg"
-        }
-    },
+    [
+        {
+            "filename": "buggtesta.md",
+            "attr": {
+                "data-background": "http://f.cl.ly/items/361d0o1K3k0a3N1K1k3g/rage.jpg"
+            }
+        },
+        "buggtesta-checklist.md"
+    ]
+    ,
     [
         "funktioner.md",
         {
@@ -113,16 +119,17 @@
             "attr": {
                 "data-background": "#556270"
             }
+        },
+        {
+            "filename": "ovning-6.md",
+            "attr": {
+                "data-background": "#556270"
+            }
         }
     ],
-    "multi-armed-bandit.md",
-    [
-        "workflow-advanced.md"
-    ],
-    "spss-demo.md",
     [
         "appendix.md",
         "appendix-2.md"
     ]
-    
+
 ]

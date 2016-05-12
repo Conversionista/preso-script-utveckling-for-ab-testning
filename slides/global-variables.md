@@ -1,1 +1,1 @@
-##  global variables
+##  global css & js

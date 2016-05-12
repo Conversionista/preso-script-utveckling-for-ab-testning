@@ -1,4 +1,4 @@
-##  Agenda
+##  Topics
 
 - Bakgrund
 - Workflow
@@ -6,4 +6,3 @@
 - Methods
 - CSS
 - Implementation
-- SPSS - recap
