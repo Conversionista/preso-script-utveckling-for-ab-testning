@@ -30,7 +30,7 @@ module.exports = (grunt) ->
             jshint:
                 files: ['js/*.js']
                 tasks: ['jshint']
-        
+
             sass:
                 files: ['css/source/theme.scss']
                 tasks: ['sass']
@@ -40,7 +40,7 @@ module.exports = (grunt) ->
             theme:
                 files:
                     'css/theme.css': 'css/source/theme.scss'
-        
+
         connect:
 
             livereload:
@@ -52,6 +52,15 @@ module.exports = (grunt) ->
                     base: '.'
                     open: true
                     livereload: true
+        buildcontrol:
+            options:
+                dir: 'dist'
+                commit: true
+                push: true
+                message: 'Built %sourceName% from commit %sourceCommit% on branch %sourceBranch%'
+            pages:
+                remote: 'git@github.com:Conversionista/preso-script-utveckling-for-ab-testning.git'
+                branch: 'gh-pages'
 
         coffeelint:
 
@@ -89,7 +98,7 @@ module.exports = (grunt) ->
                     filter: 'isFile'
                 }]
 
-        
+
 
 
     # Load all grunt tasks.
@@ -133,7 +142,16 @@ module.exports = (grunt) ->
             'copy'
         ]
 
-    
+    grunt.registerTask 'build',
+        'Doploying *dist* directory to GH-pages.', [
+            'test'
+            'sass'
+            'buildIndex'
+            'copy'
+            'buildcontrol'
+        ]
+
+
 
     # Define default task.
     grunt.registerTask 'default', [
