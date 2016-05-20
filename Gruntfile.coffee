@@ -52,6 +52,7 @@ module.exports = (grunt) ->
                     base: '.'
                     open: true
                     livereload: true
+
         buildcontrol:
             options:
                 dir: 'dist'
@@ -150,7 +151,6 @@ module.exports = (grunt) ->
             'copy'
             'buildcontrol'
         ]
-
 
 
     # Define default task.
