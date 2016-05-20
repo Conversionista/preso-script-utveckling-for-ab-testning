@@ -157,4 +157,36 @@ kbd.light, .light-keys kbd, .key.light, .light-keys .key {
   box-shadow: none !important;
   border: 0 !important; }
 
+div.button {
+  position: relative;
+  color: white;
+  text-decoration: none;
+  background-color: #db5705;
+  font-family: "proxima-nova",sans-serif;
+  font-weight: 700;
+  font-size: 0.8em;
+  display: block;
+  padding: 4px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 9px 0px #db1f05, 0px 9px 25px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 9px 0px #db1f05, 0px 9px 25px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 9px 0px #db1f05, 0px 9px 25px rgba(0, 0, 0, 0.7);
+  margin: 100px auto;
+  width: 160px;
+  text-align: center;
+  -webkit-transition: all .1s ease;
+  -moz-transition: all .1s ease;
+  -ms-transition: all .1s ease;
+  -o-transition: all .1s ease;
+  transition: all .1s ease; }
+
+div.button:active {
+  -webkit-box-shadow: 0px 3px 0px #db1f05, 0px 3px 6px rgba(0, 0, 0, 0.9);
+  -moz-box-shadow: 0px 3px 0px #db1f05, 0px 3px 6px rgba(0, 0, 0, 0.9);
+  box-shadow: 0px 3px 0px #db1f05, 0px 3px 6px rgba(0, 0, 0, 0.9);
+  position: relative;
+  top: 6px; }
+
 /*# sourceMappingURL=theme.css.map */

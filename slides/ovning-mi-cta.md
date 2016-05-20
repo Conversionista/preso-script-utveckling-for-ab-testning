@@ -1,4 +1,6 @@
-##Övning 6
+##Övning
+#### Medieinstitutet
+
 - directional cue
 - enkapsulering
 - "bryt linjen"

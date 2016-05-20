@@ -3,13 +3,7 @@
     "agenda.md",
     [
         "bakgrund.md",
-        "jquery.md",
-    {
-        "filename": "testplan.md",
-        "attr": {
-            "data-background": "#FFFFFF"
-        }
-    }
+        "jquery.md"
 
     ],
     [
@@ -17,11 +11,26 @@
         "console-ftw.md",
         "console-commands.md",
         "userscript-manager.md",
-        "lokal-webbserver.md",
-        "workflow-advanced.md"
+        "lokal-webbserver.md"
     ],
     {
-        "filename": "ovning-1.md",
+        "filename": "ovning-tabort.md",
+        "attr": {
+            "data-background": "#556270"
+        }
+    },
+    [
+        "selectors.md",
+        "id.md",
+        "class.md",
+        "element.md",
+        "kombo.md",
+        "child-filter-selectors.md",
+        "content-filters.md",
+        "child-element.md"
+    ],
+    {
+        "filename": "ovning-knappfarg-mathem.md",
         "attr": {
             "data-background": "#556270"
         }
@@ -36,7 +45,7 @@
         "visadoljata-bort.md"
     ],
     {
-        "filename": "ovning-2.md",
+        "filename": "ovning-bgimg.md",
         "attr": {
             "data-background": "#556270"
         }
@@ -44,26 +53,23 @@
     [
         "css-responsive.md"
     ],
+    {
+        "filename": "ovning-knapp.md",
+        "attr": {
+            "data-background": "#556270"
+        }
+    },
     [
         "implementation.md",
         "ab-testing-tools.md",
         "exekvering-av-kod.md",
         "flicker.md",
         {
-            "filename": "optimizely.md",
-            "attr": {
-                "data-background": "#00415d"
-            }
-        },
-        {
             "filename": "optimizely-documentation.md",
             "attr": {
                 "data-background": "#00415d"
             }
         },
-        "goals.md",
-        "segments.md",
-        "global-variables.md",
         {
             "filename": "execution.md",
             "attr": {
@@ -81,47 +87,37 @@
             "attr": {
                 "data-background": "#00415d"
             }
-        },
-        {
-            "filename": "vwo.md",
-            "attr": {
-                "data-background": "#BE2876"
-            }
         }
     ],
-    [
-        {
-            "filename": "buggtesta.md",
-            "attr": {
-                "data-background": "http://f.cl.ly/items/361d0o1K3k0a3N1K1k3g/rage.jpg"
-            }
-        },
-        "buggtesta-checklist.md"
-    ]
-    ,
+    {
+        "filename": "ovning-move-boxes-c.md",
+        "attr": {
+            "data-background": "#556270"
+        }
+    },
     [
         "funktioner.md",
         {
-            "filename": "ovning-3.md",
+            "filename": "ovning-cdon-pris.md",
             "attr": {
                 "data-background": "#556270"
             }
         },
         {
-            "filename": "ovning-4.md",
+            "filename": "ovning-pswd-kurriren.md",
             "attr": {
                 "data-background": "#556270"
             }
         },
         "ajax.md",
         {
-            "filename": "ovning-5.md",
+            "filename": "ovning-product-page-fyndiq.md",
             "attr": {
                 "data-background": "#556270"
             }
         },
         {
-            "filename": "ovning-6.md",
+            "filename": "ovning-mi-cta.md",
             "attr": {
                 "data-background": "#556270"
             }
