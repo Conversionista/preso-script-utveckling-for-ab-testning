@@ -55,7 +55,7 @@ module.exports = (grunt) ->
 
         buildcontrol:
             options:
-                dir: ''
+                dir: 'dist'
                 commit: true
                 push: true
                 message: 'Built %sourceName% from commit %sourceCommit% on branch %sourceBranch%'
