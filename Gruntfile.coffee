@@ -54,11 +54,13 @@ module.exports = (grunt) ->
                     livereload: true
 
         buildcontrol:
+
             options:
                 dir: 'dist'
                 commit: true
                 push: true
                 message: 'Built %sourceName% from commit %sourceCommit% on branch %sourceBranch%'
+
             pages:
                 remote: 'git@github.com:Conversionista/preso-script-utveckling-for-ab-testning.git'
                 branch: 'gh-pages'
@@ -143,8 +145,8 @@ module.exports = (grunt) ->
             'copy'
         ]
 
-    grunt.registerTask 'build',
-        'Doploying *dist* directory to GH-pages.', [
+    grunt.registerTask 'deploy',
+        'Deploying *dist* directory to GH-pages.', [
             'test'
             'sass'
             'buildIndex'
