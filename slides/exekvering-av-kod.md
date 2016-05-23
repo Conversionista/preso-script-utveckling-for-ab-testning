@@ -1,0 +1,1 @@
+##  exekvering av kod

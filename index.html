@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <script>
+          (function(d) {
+            var config = {
+              kitId: 'fvc2tgi',
+              scriptTimeout: 3000
+            },
+            h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+          })(document);
+        </script>
+        <title>Script-utveckling för A/B-testning</title>
+
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        
+        <link rel="stylesheet" href="bower_components/reveal.js/css/reveal.min.css">
+                
+        <link rel="stylesheet" href="css/keys.css">
+        <link rel="stylesheet" href="css/theme.css" id="theme">
+        
+    
+
+        <!-- For syntax highlighting -->
+        <link rel="stylesheet" href="bower_components/reveal-highlight-themes/styles/zenburn.css" id="highlight-theme">
+
+        <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+        <script>
+          if( window.location.search.match( /print-pdf/gi ) ) {
+            var link = document.createElement( 'link' );
+                link.rel = 'stylesheet';
+                link.type = 'text/css';
+                link.href = 'bower_components/reveal.js/css/print/pdf.css';
+                document.getElementsByTagName( 'head' )[0].appendChild( link );
+            }
+        </script>
+
+        <!--[if lt IE 9]>
+        <script src="lib/js/html5shiv.js"></script>
+        <![endif]-->
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+        
+    </head>
+
+    <body>
+
+        <div class="reveal">
+
+            <div class="slides">
+
+                
+                    
+                        
+    <section data-markdown="slides/index.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/agenda.md"></section>
+
+
+                    
+                    
+                
+                    
+                    
+                        <section>
+                            
+                                
+    <section data-markdown="slides/bakgrund.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/jquery.md"></section>
+
+
+                            
+                        </section>
+                    
+                
+                    
+                    
+                        <section>
+                            
+                                
+    <section data-markdown="slides/workflow.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/console-ftw.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/console-commands.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/userscript-manager.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/lokal-webbserver.md"></section>
+
+
+                            
+                        </section>
+                    
+                
+                    
+                        
+    <section data-background="#556270" data-markdown="slides/ovning-tabort.md"></section>
+
+
+                    
+                    
+                
+                    
+                    
+                        <section>
+                            
+                                
+    <section data-markdown="slides/selectors.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/id.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/class.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/element.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/kombo.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/child-filter-selectors.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/content-filters.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/child-element.md"></section>
+
+
+                            
+                        </section>
+                    
+                
+                    
+                        
+    <section data-background="#556270" data-markdown="slides/ovning-knappfarg-mathem.md"></section>
+
+
+                    
+                    
+                
+                    
+                    
+                        <section>
+                            
+                                
+    <section data-markdown="slides/methods.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/parent.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/lagga-till.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/andra.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/flytta.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/kopiera.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/visadoljata-bort.md"></section>
+
+
+                            
+                        </section>
+                    
+                
+                    
+                        
+    <section data-background="#556270" data-markdown="slides/ovning-bgimg.md"></section>
+
+
+                    
+                    
+                
+                    
+                    
+                        <section>
+                            
+                                
+    <section data-markdown="slides/css-responsive.md"></section>
+
+
+                            
+                        </section>
+                    
+                
+                    
+                        
+    <section data-background="#556270" data-markdown="slides/ovning-knapp.md"></section>
+
+
+                    
+                    
+                
+                    
+                    
+                        <section>
+                            
+                                
+    <section data-markdown="slides/implementation.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/ab-testing-tools.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/exekvering-av-kod.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/flicker.md"></section>
+
+
+                            
+                                
+    <section data-background="#00415d" data-markdown="slides/optimizely-documentation.md"></section>
+
+
+                            
+                                
+    <section data-background="#fff" data-markdown="slides/execution.md"></section>
+
+
+                            
+                                
+    <section data-background="white" data-markdown="slides/loading.md"></section>
+
+
+                            
+                                
+    <section data-background="#00415d" data-markdown="slides/optimizely-force.md"></section>
+
+
+                            
+                        </section>
+                    
+                
+                    
+                        
+    <section data-background="#556270" data-markdown="slides/ovning-move-boxes-c.md"></section>
+
+
+                    
+                    
+                
+                    
+                    
+                        <section>
+                            
+                                
+    <section data-markdown="slides/funktioner.md"></section>
+
+
+                            
+                                
+    <section data-background="#556270" data-markdown="slides/ovning-cdon-pris.md"></section>
+
+
+                            
+                                
+    <section data-background="#556270" data-markdown="slides/ovning-pswd-kurriren.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/ajax.md"></section>
+
+
+                            
+                                
+    <section data-background="#556270" data-markdown="slides/ovning-product-page-fyndiq.md"></section>
+
+
+                            
+                                
+    <section data-background="#556270" data-markdown="slides/ovning-mi-cta.md"></section>
+
+
+                            
+                        </section>
+                    
+                
+                    
+                    
+                        <section>
+                            
+                                
+    <section data-markdown="slides/appendix.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/appendix-2.md"></section>
+
+
+                            
+                        </section>
+                    
+                
+            </div>
+
+        </div>
+
+        <script src="bower_components/reveal.js/lib/js/head.min.js"></script>
+        <script src="bower_components/reveal.js/js/reveal.min.js"></script>
+        <script>
+            // Configure Reveal
+            // Full list of configuration options available here:
+            // https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                controls: true,
+                progress: true,
+                history: true,
+                center: true,
+
+                theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+                transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+                // Optional libraries used to extend on reveal.js
+                dependencies: [
+                    { src: 'bower_components/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                    { src: 'bower_components/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'bower_components/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'bower_components/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                    { src: 'bower_components/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+                    { src: 'bower_components/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+                    // { src: 'bower_components/reveal.js/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+                    //{ src: 'bower_components/reveal.js/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+
+                    { src: 'js/loadhtmlslides.js', condition: function() { return !!document.querySelector( '[data-html]' ); } }
+                ]
+            });
+        </script>
+
+    </body>
+
+</html>
