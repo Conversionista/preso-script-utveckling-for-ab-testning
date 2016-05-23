@@ -60,6 +60,7 @@ module.exports = (grunt) ->
                 push: true
                 message: 'Built %sourceName% from commit %sourceCommit% on branch %sourceBranch%'
             pages:
+                remote: 'git@github.com:Conversionista/preso-script-utveckling-for-ab-testning.git'
                 branch: 'gh-pages'
 
         coffeelint:
